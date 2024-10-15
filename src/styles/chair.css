@@ -1,0 +1,31 @@
+.main{
+    border: 1px solid white;
+    position: relative;
+}
+
+.sofaImg{
+    width: 540px;
+    height: 300px;
+}
+
+
+.Bigcircle{
+    border: 2px solid grey;
+    width: 480px;
+    position: absolute;
+    bottom: -60px;
+    height: 150px;
+    background-color: white;
+    transform: rotate3d(102, 1, 1, 80deg);
+    border-radius: 90px;
+}
+
+.Smallcircle{
+    border: 2px solid grey;
+    width: 200px;
+    position: absolute;
+    bottom: 30px;       
+    height: 40px;
+    border-radius: 90px;
+    transform: rotate3d(102, 3, 1, 75deg);
+}

@@ -1,0 +1,51 @@
+.ping{
+   border-radius: 50%;
+   background-color: transparent;
+   height: 50px;
+   width: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   animation: ripple 2s ease-in-out infinite;
+}
+
+.ping p{
+   border: 3px solid white;
+   border-radius: 50%; 
+   padding: 15px 18px 15px 18px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+
+
+@keyframes ripple {
+    0%{
+      border: 1px solid rgb(235, 234, 234);
+      padding: 0px 0px;  
+    }
+
+     25%{
+        border: 1px solid rgb(235, 234, 234);
+        padding: 0px 0px; 
+    }
+
+    50%{
+        border: 1px solid rgb(235, 234, 234);
+      padding: 15px 10px; 
+    }
+
+    75%{
+        border: 1px solid rgb(235, 234, 234);
+        padding: 20px 15px; 
+    }
+
+    100%{
+        border: none;
+    }
+}
+
+
