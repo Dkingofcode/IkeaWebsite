@@ -6,7 +6,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   animation: ripple 2s ease-in-out infinite;
+   animation: ripple 2s ease-in-out  infinite;
 }
 
 .ping p{

@@ -1,17 +1,17 @@
-.main{
-    border: 1px solid white;
+.chair{
+    border: 1px solid red;
     position: relative;
 }
 
-.sofaImg{
-    width: 540px;
-    height: 300px;
+.chair  .sofaImg{
+    width: 340px;
+    height: 200px;
 }
 
 
-.Bigcircle{
+.chair  .Bigcircle{
     border: 2px solid grey;
-    width: 480px;
+    width: 320px;
     position: absolute;
     bottom: -60px;
     height: 150px;
@@ -20,7 +20,7 @@
     border-radius: 90px;
 }
 
-.Smallcircle{
+.chair .Smallcircle{
     border: 2px solid grey;
     width: 200px;
     position: absolute;

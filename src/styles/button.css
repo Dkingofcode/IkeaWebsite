@@ -1,0 +1,15 @@
+.cartBtn{
+    background-color: #f4bc55;
+    padding: 5px 10px;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartBtn span{
+   border: 3px solid white;
+   padding: 5px 9px;
+   border-radius: 50%;
+}

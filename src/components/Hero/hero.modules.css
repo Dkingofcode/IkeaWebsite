@@ -1,3 +1,87 @@
 .main{
-   border: 3px solid black;
+border: 2px solid black;   
+position: relative;
+display: flex;
+justify-content: flex-start;
+padding: 10px 50px;
 }
+
+.heroTop {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 50px;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.heroTop article{
+   display: flex;
+   gap: 30px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.hero-main {
+   
+}
+
+.hero-main .showcase{
+   width: 630px;
+   height: 400px;
+   position: relative;
+}
+
+
+ .pingBtn{
+   
+   border: 5px solid red;
+}
+
+.hero-main .preview1{
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   bottom: 10px;
+   left: 190px;
+}
+
+
+.hero-main .preview2{
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   bottom: 10px;
+   left: 240px;
+}
+
+
+.hero-main .preview3{
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   bottom: 10px;
+   left: 290px;
+}
+
+.sidebar {
+   position: absolute;
+   top: 0;
+   right: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
