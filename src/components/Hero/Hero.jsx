@@ -7,6 +7,7 @@ import Button from "../../ui/Button";
 import Price from "../../ui/Price";
 //import PingButton from "../../ui/PingButton";
 import PingButton from "../../ui/heroPing";
+import HeroLabel from "../../ui/heroLabel";
 
 
 const Hero = () => {
@@ -47,11 +48,37 @@ const Hero = () => {
          <PingButton className={"pingBtn"}  positionleft={"290px"} positionright={"0px"} positionbottom={"0px"} positiontop={"90px"} />
          <PingButton className={"pingBtn"}  positionleft={"180px"} positionright={"0px"} positionbottom={"0px"} positiontop={"130px"} />
          <PingButton className={"pingBtn"}  positionleft={"110px"} positionright={"0px"} positionbottom={"0px"} positiontop={"250px"} />
-         
+         <HeroLabel className={"label"} />
 
         <img className="preview1" src="/preview1.jpeg" />
         <img className="preview2" src="/preview2.jpeg" />
         <img className="preview3" src="/preview3.jpeg" />
+        </div>
+
+        <div className="hero-footer">
+          <div className="giftCard">
+            <img src="giftcardicon.jpg" />
+            <h3>Bonus card as a gift</h3>
+            <img src="/CircledArrow.jfif"  />
+          </div>
+
+          <div className="giftCard">
+            <img src="clock.png" />
+            <h3>24 hour support</h3>
+            <img src="/CircledArrow.jfif" />
+          </div>
+
+          <div className="giftCard">
+            <img src="Securityshield.webp" />
+            <h3>10 year guarantee</h3>
+           <img src="/CircledArrow.jfif" />
+          </div>
+
+          <div className="giftCard">
+            <img src="Grid.jfif" />
+            <h3>Newest technologies</h3>
+            <img src="/CircledArrow.jfif" />
+          </div>
         </div>
       
       </div>

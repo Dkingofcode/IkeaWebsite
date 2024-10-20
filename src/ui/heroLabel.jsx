@@ -4,7 +4,7 @@ import Price from "./Price";
 
 
 
-function heroLabel({ className }) {
+function HeroLabel({ className }) {
   return (
     <div className={className}>
       Buy All Products(4)
@@ -14,4 +14,4 @@ function heroLabel({ className }) {
   )
 }
 
-export default heroLabel;
+export default HeroLabel;

@@ -1,0 +1,54 @@
+.gallery {
+    display: flex;
+    background: rgb(244, 244, 244);  
+}
+
+.GalleryBox {
+    display: flex;
+    gap: 10px;
+}
+
+.GalleryBox article{
+    background: white;
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+}
+
+.gallery img {
+    width: 30px;
+}
+
+
+
+.GalleryBox article img{
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

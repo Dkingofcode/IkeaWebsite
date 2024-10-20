@@ -45,30 +45,30 @@ padding: 10px 50px;
 }
 
 .hero-main .preview1{
-   width: 40px;
-   height: 40px;
+   width: 90px;
+   height: 70px;
    position: absolute;
-   bottom: 10px;
-   left: 190px;
+   bottom: 190px;
+   left: 50px;
    
 }
 
 
 .hero-main .preview2{
-   width: 40px;
-   height: 40px;
+   width: 90px;
+   height: 70px;
    position: absolute;
-   bottom: 10px;
-   left: 240px;
+   bottom: 190px;
+   left: 150px;
 }
 
 
 .hero-main .preview3{
-   width: 40px;
-   height: 40px;
+   width: 90px;
+   height: 70px;
    position: absolute;
-   bottom: 10px;
-   left: 290px;
+   bottom: 190px;
+   left: 270px;
 }
 
 .sidebar {
@@ -79,17 +79,39 @@ padding: 10px 50px;
 }
 
 .label{
-   border: 3px solid red;
+   border: 3px solid white;
    position: absolute;
-   top: 90px;
+   top: 20px;
    left: 40px;
-   width: 150px;
-   height: 150px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
    background-color: white;
+   padding: 40px 20px;
+}
+
+.hero-footer{
+   display: flex;
+   gap: 20px;
 }
 
 
+.giftCard {
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+}
 
+.giftCard:hover {
+   background: rgb(246, 183, 66);
+}
+
+
+.giftCard img{
+   width: 50px;
+   background: transparent;
+   
+}
 
 
 
