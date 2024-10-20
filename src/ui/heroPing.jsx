@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const PingButton = ({ positionleft, positionright, positiontop, positionbottom, className }) => {
   return (
-    <div className={className} style={{ position: "absolute", left: positionleft, right: positionright, top: positiontop, bottom: positionbottom }}>
+    <div className={className} style={{  left: positionleft, right: positionright, top: positiontop, bottom: positionbottom}}>
       <p>+</p>
     </div>
   )

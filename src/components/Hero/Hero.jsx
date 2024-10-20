@@ -5,7 +5,9 @@ import "./hero.modules.css";
 import Sidebar from "../../ui/Sidebar";
 import Button from "../../ui/Button";
 import Price from "../../ui/Price";
-import PingButton from "../../ui/PingButton";
+//import PingButton from "../../ui/PingButton";
+import PingButton from "../../ui/heroPing";
+
 
 const Hero = () => {
   return (
@@ -42,10 +44,11 @@ const Hero = () => {
 
         <img className="showcase" src="showcase.jpg" alt="livingroom picture" /> 
 
-         <PingButton class={"pingBtn"} positionleft={"30px"} positionright={"0px"} positionbottom={"50px"} positiontop={"0px"} />
-         <PingButton class={"pingBtn"}  positionleft={"0px"} positionright={"30px"} positionbottom={"90px"} positiontop={"0px"} />
-         <PingButton class={"pingBtn"}  positionleft={"0px"} positionright={"50px"} positionbottom={"120px"} positiontop={"0px"} />
-              
+         <PingButton className={"pingBtn"}  positionleft={"290px"} positionright={"0px"} positionbottom={"0px"} positiontop={"90px"} />
+         <PingButton className={"pingBtn"}  positionleft={"180px"} positionright={"0px"} positionbottom={"0px"} positiontop={"130px"} />
+         <PingButton className={"pingBtn"}  positionleft={"110px"} positionright={"0px"} positionbottom={"0px"} positiontop={"250px"} />
+         
+
         <img className="preview1" src="/preview1.jpeg" />
         <img className="preview2" src="/preview2.jpeg" />
         <img className="preview3" src="/preview3.jpeg" />
@@ -54,7 +57,7 @@ const Hero = () => {
       </div>
       </div>
 
-      <div className="sidebar">
+      <div className="">
       <Sidebar />
       </div>
 

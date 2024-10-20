@@ -1,6 +1,4 @@
-.main{
-border: 2px solid black;   
-position: relative;
+.main{   
 display: flex;
 justify-content: flex-start;
 padding: 10px 50px;
@@ -10,6 +8,7 @@ padding: 10px 50px;
    display: flex;
    justify-content: space-between;
    padding-bottom: 50px;
+   position: relative;
    flex-wrap: wrap;
    gap: 30px;
 }
@@ -23,7 +22,7 @@ padding: 10px 50px;
 }
 
 .hero-main {
-   
+   position: relative;
 }
 
 .hero-main .showcase{
@@ -34,8 +33,15 @@ padding: 10px 50px;
 
 
  .pingBtn{
-   
-   border: 5px solid red;
+   position: absolute;
+   border: 1px solid white;
+   background-color: white;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .hero-main .preview1{
@@ -44,6 +50,7 @@ padding: 10px 50px;
    position: absolute;
    bottom: 10px;
    left: 190px;
+   
 }
 
 
@@ -66,9 +73,19 @@ padding: 10px 50px;
 
 .sidebar {
    position: absolute;
-   top: 0;
-   right: 0;
+   top: 60px;
+   right: 60px;
+   border: 1px solid black;    
+}
 
+.label{
+   border: 3px solid red;
+   position: absolute;
+   top: 90px;
+   left: 40px;
+   width: 150px;
+   height: 150px;
+   background-color: white;
 }
 
 

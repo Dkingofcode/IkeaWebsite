@@ -1,8 +1,11 @@
 //import React from 'react'
+import "../styles/sidebar.css";
+
+
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="sidebar">
       <img src="/avatar.svg" />
 
       <h4>Hello Anna!</h4>

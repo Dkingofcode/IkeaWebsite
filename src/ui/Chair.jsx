@@ -7,7 +7,7 @@ const Chair = () => {
   return (
     <div className="chair">
       <img className="sofaImg" src={Sofa}  alt="sofa image" />   
-      <PingButton class={""} positionleft={"90px"} positionright={"0px"} positiontop={"60px"} positionbottom={"0px"}  /> 
+      <PingButton className={"ping"} positionleft={"90px"} positionright={"0px"} positiontop={"60px"} positionbottom={"0px"}  /> 
        <div className="Bigcircle"></div>
        <div className="Smallcircle"></div>
     </div>
