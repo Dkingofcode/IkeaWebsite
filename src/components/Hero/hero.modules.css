@@ -1,7 +1,7 @@
 .main{   
 display: flex;
 justify-content: flex-start;
-padding: 10px 50px;
+padding: 0px 50px;
 }
 
 .heroTop {
@@ -19,6 +19,37 @@ padding: 10px 50px;
    flex-direction: column;
    justify-content: center;
    align-items: flex-start;
+}
+
+.heroTop .hero-feature{
+   display: flex;
+}
+
+.heroTop .hero-feature .features{
+   display: flex;
+   flex-direction: column;
+   gap: 140px;
+   align-items: center;
+   justify-content: center;
+}
+
+.heroTop .hero-feature img{
+   width: 50px;
+}
+
+
+
+.slant-text{
+   transform: rotate(90deg);
+   padding-left: 90px;
+}
+
+.line{
+   border: 1px solid black;
+   width: 50px;
+   text-align: center;
+   align-items: center;
+   transform: rotate(90deg);
 }
 
 .hero-main {
@@ -73,9 +104,10 @@ padding: 10px 50px;
 
 .sidebar {
    position: absolute;
-   top: 60px;
-   right: 60px;
+   top: 40px;
+   right: 0px;
    border: 1px solid black;    
+   width: 500px;   
 }
 
 .label{

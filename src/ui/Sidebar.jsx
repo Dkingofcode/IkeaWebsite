@@ -6,7 +6,7 @@ import "../styles/sidebar.css";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <img src="/avatar.svg" />
+      <img className="userAvatar" src="/avatar.svg" />
 
       <h4>Hello Anna!</h4>
       <span>2</span>

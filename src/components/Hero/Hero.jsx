@@ -35,6 +35,32 @@ const Hero = () => {
          </div>
        </article>
 
+         <div className="hero-feature">
+          <div>
+
+          <div>  
+          <img src="giftcardicon.jpg" />
+          </div>
+
+          <div>
+          <img src="clock.png"  />
+          </div>
+
+          <div>
+          <img src="Securityshield.webp"  />
+          </div> 
+
+          <div>
+          <img src="Grid.jfif"  />
+          </div>
+
+          </div>
+
+          <div className="features">
+           <p className="slant-text">FEATURES</p>
+            <div className="line"></div>
+          </div>
+         </div>
 
       </div>
 
@@ -84,9 +110,9 @@ const Hero = () => {
       </div>
       </div>
 
-      <div className="">
+    
       <Sidebar />
-      </div>
+      
 
     </div>
   )
